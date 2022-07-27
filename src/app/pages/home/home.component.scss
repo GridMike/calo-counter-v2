@@ -1,0 +1,44 @@
+.total_calories {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    
+    strong {
+        font-weight: 600;
+    }
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    position: fixed;
+    bottom: 2rem;
+    max-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-right: .5rem;
+    row-gap: .5rem;
+}
+
+input {
+    padding: .6rem;
+    background-color: rgba(255,255,255,0.03);
+    border: none;
+}
+
+button {
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    cursor: pointer;
+    padding: .75rem;
+
+    &:active {
+        transform: scale(.9);
+    }
+}

@@ -1,0 +1,6 @@
+<ul class="meals_list">
+    <li *ngFor="let mealItem of mealsArr; index as i">
+        <span><b>{{i + 1}}.</b>{{mealItem.name}}</span>
+        <span>Calories: {{mealItem.calories}}</span>
+    </li>
+</ul>

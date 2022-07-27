@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.025);
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    padding: .5rem .6rem;
+    opacity: .5;
+    transition: .25s;
+    font-size: .95rem;
+
+    &:last-of-type {
+        padding-right: 0;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}

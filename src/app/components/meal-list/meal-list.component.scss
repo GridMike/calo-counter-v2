@@ -1,0 +1,31 @@
+li {
+    list-style: none;
+    max-width: 100%;
+    margin: .75rem 0;
+
+    b {
+        opacity: .5;
+        margin-right: .25rem;
+    }
+
+    span {
+        display: block;
+        width: 20rem;
+        max-width: 100%;
+        background-color: rgba(255, 255, 255, .05);
+        padding: .5rem;
+       
+        &:nth-of-type(1) {
+            border-radius: .5rem .5rem 0 0;
+            color: rgba(255, 255, 255, .9);
+            font-size: .8rem;
+        }
+
+        &:nth-of-type(2) {
+            border-radius: 0 0 .5rem .5rem;
+            color: rgba(255, 255, 255, .5);
+            opacity: .5;
+            font-size: .85rem;
+        }
+    }
+}

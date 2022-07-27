@@ -1,0 +1,12 @@
+<div class="home">
+    <p class="total_calories">Total calories: <strong>{{sumOfCalo}} </strong> kcal</p>
+    <app-meal-list></app-meal-list>
+    <form [formGroup]="addMealForm" (ngSubmit)="onSubmit()">
+        <div class="inputs">
+            <input type="hidden" placeholder="Meal name" formControlName="id" (value)="uuid;">
+            <input type="text" placeholder="Meal name" formControlName="name">
+            <input type="number" placeholder="Calories" formControlName="calories">
+        </div>
+        <button type="submit">Add</button>
+    </form>
+</div>
